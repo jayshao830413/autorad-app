@@ -4,6 +4,7 @@
     .app-logo {
         font-size: 1.2rem;
         float: left;
+        margin-left: 2rem;
     }
     .app-navbar-menu {
         float: right;
@@ -11,6 +12,8 @@
         margin-bottom: 3rem;
         ul#navbar-menu {
             list-style: none;
+            overflow: hidden;
+            margin-top: 10px;
             li.navbar-menu-list {
                 cursor: pointer;
                 padding-left: 2rem;
@@ -36,7 +39,7 @@
                     border: 1px solid #e8e8e8;
                     position: absolute;
                     width: 20rem;
-                    top: 8rem;
+                    top: 9rem;
                     text-align: left;
                     color: black;
                     &:after {
