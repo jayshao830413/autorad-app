@@ -52,3 +52,53 @@ Vehicle.find_or_create_by(name: 'Chevrolet') do |vehicle|
   vehicle.description = 'Chevrolet'
   vehicle.image_name = 'chevolet.jpg'
 end
+
+
+#################################################
+Motocycle.find_or_create_by(name: 'BMW') do |motocycle|
+  motocycle.name = 'BMW'
+  motocycle.description = 'BMW'
+  motocycle.image_name = 'bmw.jpg'
+end
+
+Motocycle.find_or_create_by(name: 'Mercedes-Benz') do |motocycle|
+  motocycle.name = 'Mercedes-Benz'
+  motocycle.description = 'Mercedes-Benz'
+  motocycle.image_name = 'mercedes-benz.jpg'
+end
+
+Motocycle.find_or_create_by(name: 'Audi') do |motocycle|
+  motocycle.name = 'Audi'
+  motocycle.description = 'Audi'
+  motocycle.image_name = 'audi.jpg'
+end
+
+Motocycle.find_or_create_by(name: 'Porsche') do |motocycle|
+  motocycle.name = 'Porsche'
+  motocycle.description = 'Porsche'
+  motocycle.image_name = 'porsche.jpg'
+end
+
+Motocycle.find_or_create_by(name: 'Range Rover') do |motocycle|
+  motocycle.name = "Range Rover"
+  motocycle.description = "Range Rover"
+  motocycle.image_name = "range_rover.jpg"
+end
+
+Motocycle.find_or_create_by(name: 'Toyota') do |motocycle|
+  motocycle.name = "Toyota"
+  motocycle.description = "Toyota"
+  motocycle.image_name = "toyota.jpg"
+end
+
+Motocycle.find_or_create_by(name: 'Ford') do |motocycle|
+  motocycle.name = 'Ford'
+  motocycle.description = 'Ford'
+  motocycle.image_name = 'ford.jpg'
+end
+
+Motocycle.find_or_create_by(name: 'Chevrolet') do |motocycle|
+  motocycle.name = 'Chevrolet'
+  motocycle.description = 'Chevrolet'
+  motocycle.image_name = 'chevolet.jpg'
+end

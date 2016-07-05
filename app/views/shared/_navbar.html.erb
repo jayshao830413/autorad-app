@@ -17,14 +17,9 @@
 			<li class="navbar-menu-list navbar-menu-submenus motocycles-menu" id="motocycles-menu">
 				Motocycles  <i class="fa fa-angle-down" aria-hidden="true"></i>
 				<ul id="motocycles-sub-menus" class="sub-menu">
-					<li>BMW</li>
-					<li>Mercedes-Benz</li>
-					<li>Audi</li>
-					<li>Porsche</li>
-					<li>Range Rover</li>
-					<li>Toyota</li>
-					<li>Ford</li>
-					<li>Chevrolet</li>
+					<% @motocycles_menus.each do |motocycles_menu| -%>
+			  		<li><%= link_to motocycles_menu.name, motocycle_path(motocycles_menu.id) %></li>
+			  	<% end -%>
 				</ul>
 			</li>
 			<li class="navbar-menu-list navbar-menu-submenus">Delivery <i class="fa fa-angle-down" aria-hidden="true"></i>
