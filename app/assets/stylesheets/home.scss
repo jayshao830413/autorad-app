@@ -1,0 +1,21 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.image-wrapper {
+    position: relative;
+    p {
+        position: absolute;
+        left: 30%;
+        font-size: 3.6rem;
+        top: 50rem;
+        color: white;
+    }
+    .scroll-down {
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        font-size: 6rem;
+        color: white;
+        cursor: pointer;
+    }
+}
