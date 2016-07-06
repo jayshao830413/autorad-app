@@ -24,7 +24,7 @@
                 text-align: center;
                 border-right: 1px solid #e8e8e8;
                 &:hover {
-                    color: #e8e8e8;
+                    color: #7b92aa;
                 }
                 &:last-of-type {
                     border-right: 0px;
@@ -71,11 +71,14 @@
                     li {
                         border-bottom: 1px solid #e8e8e8;
                         padding-left: 1rem;
+                        a {
+                            display: block;
+                        }
                         &:last-of-type {
                             border-bottom: 0px;
                         }
                         &:hover {
-                            color: #e8e8e8;
+                            color: #7b92aa;
                         }
                     }
                 }
